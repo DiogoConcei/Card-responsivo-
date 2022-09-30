@@ -1,0 +1,1 @@
+Este projeto foi realizado para desenvolver minhas habilidades em css, e começar os estudos de Git

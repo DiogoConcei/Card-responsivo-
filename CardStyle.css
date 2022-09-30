@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 50vw;
+    border: 2px solid;
+    margin: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.card:hover {
+    transition: 1.2s;
+    scale: 1.1;
+    background: white;
+}
+
+.text:hover {
+    transition: 1.2s;
+    color: purple;
+}
+
+section:hover {
+    transition: 1.2s;
+    background-color: black;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 920px) {
+    body {
+        background-color: whitesmoke;
+        box-sizing: border-box;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 224vw;
+        margin: 20px;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+        width: 80vw;
+        height: 110vw;
+    }
+
+    .text {
+        text-align: center;
+        width: 60vw;
+        height: 60vw;
+        font-size: 3vw;
+        color: purple;
+    }
+
+    img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+}
